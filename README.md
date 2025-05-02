@@ -5,7 +5,7 @@ A lightweight Go framework for categorizing Merchant Category Codes (MCC) into h
 ## Features
 
 - Simple and efficient MCC code categorization
-- Comprehensive coverage of standard MCC codes
+- Comprehensive coverage of standard MCC codes from ISO 18245 standard database
 - Easy-to-use API
 - Well-documented code
 - MIT licensed
