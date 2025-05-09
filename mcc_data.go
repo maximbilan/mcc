@@ -158,6 +158,7 @@ var mccData = map[string]Category{
 	"5973": {"5973", "Religious goods and shops"},
 	"5975": {"5975", "Hearing aids -- sales, service and supplies"},
 	"5976": {"5976", "Orthopaedic goods and prosthetic devices"},
+	"5977": {"5977", "Cosmetic stores"},
 	"5978": {"5978", "Typewriter outlets -- sales, service and rentals"},
 	"5983": {"5983", "Fuel dealers -- fuel oil, wood, coal and liquefied petroleum"},
 	"5992": {"5992", "Florists"},
