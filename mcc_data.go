@@ -72,6 +72,7 @@ var mccData = map[string]Category{
 	"5231": {"5231", "Glass, paint and wallpaper shops"},
 	"5251": {"5251", "Hardware shops"},
 	"5261": {"5261", "Lawn and garden supply outlets, including nurseries"},
+	"5262": {"5262", "Garden supply stores"},
 	"5271": {"5271", "Mobile home dealers"},
 	"5300": {"5300", "Wholesale clubs"},
 	"5309": {"5309", "Duty-free shops"},
