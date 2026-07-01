@@ -177,6 +177,7 @@ var mccData = map[string]Category{
 	"6051": {"6051", "Non-financial institutions -- foreign currency, money orders (not wire transfer), scrip and travellers' checks"},
 	"6211": {"6211", "Securities -- brokers and dealers"},
 	"6300": {"6300", "Insurance sales, underwriting and premiums"},
+	"6513": {"6513", "Real estate agents and managers -- rentals"},
 	"6540": {"6540", "Non-financial institutions -- stored value card purchase/load"},
 	"7011": {"7011", "Lodging -- hotels, motels and resorts"},
 	"7012": {"7012", "Timeshares"},
