@@ -18,6 +18,7 @@ func TestGetCategory(t *testing.T) {
 		{"Valid code - 0744", "0744", "Champagne producers", false},
 		{"Valid code - 0763", "0763", "Agricultural co-operatives", false},
 		{"Valid code - 3301", "3301", "Wizz Air", false},
+		{"Valid code - 6513", "6513", "Real estate agents and managers -- rentals", false},
 		{"Valid code - 5411", "5411", "Groceries and supermarkets", false},
 		{"Valid code - 5262", "5262", "Garden supply stores", false},
 		{"Non-existent code", "9999", "", true},
@@ -61,6 +62,7 @@ func TestGetCategoryWithCode(t *testing.T) {
 	}{
 		{"Valid code", "5411", Category{Code: "5411", Description: "Groceries and supermarkets"}, false},
 		{"Valid airline code", "3301", Category{Code: "3301", Description: "Wizz Air"}, false},
+		{"Valid rentals code", "6513", Category{Code: "6513", Description: "Real estate agents and managers -- rentals"}, false},
 		{"Non-existent code", "9999", Category{}, true},
 		{"Empty code", "", Category{}, true},
 		{"Invalid format", "abc", Category{}, true},
@@ -94,7 +96,7 @@ func TestGetAllCategories(t *testing.T) {
 	}
 
 	// Test a few known categories
-	knownCodes := []string{"0742", "0743", "0744", "0763", "3301", "5411", "5262"}
+	knownCodes := []string{"0742", "0743", "0744", "0763", "3301", "6513", "5411", "5262"}
 	for _, code := range knownCodes {
 		if _, exists := categories[code]; !exists {
 			t.Errorf("GetAllCategories() missing known code %q", code)
