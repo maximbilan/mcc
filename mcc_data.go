@@ -286,4 +286,5 @@ var mccData = map[string]Category{
 	"9311": {"9311", "Tax payments"},
 	"9399": {"9399", "Government services -- not elsewhere classified"},
 	"9402": {"9402", "Postal services -- government only"},
+	"9405": {"9405", "Intra-government purchases -- government only"},
 }
