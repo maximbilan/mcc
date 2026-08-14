@@ -17,6 +17,7 @@ var mccData = map[string]Category{
 	"2741": {"2741", "Miscellaneous publishing and printing services"},
 	"2791": {"2791", "Typesetting, platemaking and related services"},
 	"2842": {"2842", "Speciality cleaning, polishing and sanitation preparations"},
+	"3047": {"3047", "Turkish Airlines"},
 	"3301": {"3301", "Wizz Air"},
 	"4011": {"4011", "Railroads"},
 	"4111": {"4111", "Local and suburban commuter passenger transportation, including ferries"},
